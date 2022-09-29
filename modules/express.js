@@ -27,7 +27,8 @@ app.get('/users', (req,res) => {
 
 app.post('/users', async (req,res) => {
     try {
-        const user = await UserModel.create(req.body)
+        console.log(req.body);
+        const user = await UserModel.create(req.body);
 
         res.status(201).json(user);
     } catch (error) {
