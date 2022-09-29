@@ -21,8 +21,10 @@
     "express-validator": "^2.20.8",
     "mongoose": "^6.6.2",
     "mysql": "^2.11.1",
-    "nodemon": "^1.10.2",
     "restify": "^4.1.1",
     "soap": "^0.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
